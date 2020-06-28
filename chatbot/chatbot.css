@@ -1,0 +1,47 @@
+.center {
+    text-align: center;
+}
+.outside{
+    display : inline-block;
+    width : 600px;
+    background-color: #DDDDDD;
+    border-radius: 15px;
+}
+h3{
+    display:inline-block;
+}
+.chat_space{
+    width:600px;
+    height:350px;
+    background-color: darkgrey;
+}
+.bottom{
+    width:600px;
+    height:200px;
+    background-color: #DDDDDD;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#menu{
+    background-color: #DDDDDD;
+    width:40px;
+    height:40px;
+    border: none;
+    float:right;
+}
+#input_left{
+    border-radius: 10px;
+}
+#textfield{
+    width:500px;
+    height:25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#enter_image{
+    width:25px;
+    height:25px;
+    border: none;
+}
