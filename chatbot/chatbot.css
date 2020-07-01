@@ -4,8 +4,9 @@
 .outside{
     display : inline-block;
     width : 600px;
-    background-color: #DDDDDD;
+    background-color: #FFFFFF;
     border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px gray;	/* 바깥 그림자  */
 }
 h3{
     display:inline-block;
@@ -13,21 +14,22 @@ h3{
 .chat_space{
     width:600px;
     height:350px;
-    background-color: darkgrey;
+    background-color: #FFFFFF;
 }
-.bottom{
+.bottom{ /* 채팅 아래 */
     width:600px;
     height:200px;
-    background-color: #DDDDDD;
+    background-color: #D2D6D8;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#menu{
-    background-color: #DDDDDD;
+#menu{ /* 우측 상단 메뉴*/
+    background-color: #FFFFFF;
     width:40px;
     height:40px;
     border: none;
     float:right;
+    margin: 15px;
 }
 #input_left{
     border-radius: 10px;
@@ -43,12 +45,15 @@ h3{
 #enter_image{
     width:25px;
     height:25px;
+    border-radius: 15px;
+    margin: 5px;
     border: none;
 }
 .question{
     text-align: center;
     padding-left: 20px;
     padding-right: 10px;
+    
 }
 .question td button{
     width: 180px;
@@ -56,7 +61,8 @@ h3{
     border-radius: 10px;
     font-size: large;
     font-style: bold;
-    border-color: black;
+    background-color: #ffffff;
+    border: none;
 }
 .bot_text, .user_text{
     width: 240px;
@@ -66,10 +72,11 @@ h3{
     text-align: center;
 }
 .bot_text{
-    background-color: white;
+    background-color: #F5F5F5;
 }
 .user_text{
-    background-color: white;
+    background-color: #D24E3C;
+    color: white;
 }
 #bot_1{
     position: relative;
