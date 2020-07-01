@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='chatbot.css?after'>
+    <title>Chatbot</title>
+
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./chatting.js"></script>
+
+    <script>
+        function goReplace() {
+            window.open('about:blank').location.href = "http://cse.knu.ac.kr/main/index.html";
+        }
+    </script>
+</head>
+
+<body class="center">
+<div class="outside">
+    <div>
+        <div class="top">
+            <img src="./짱구.gif" id="img" width="80px"height="50px">
+            <h3>고급웹프로그래밍 챗봇</h3>
+            <img src="./짱구.gif" id="img" width="80px"height="50px">
+            <button id="menu"><img src="./menu.jpg" width="30px" height="30px"></button>
+        </div>
+    </div>
+    <hr>
+    <div class="space">
+        <div class="chat_space">
+            <ul>
+
+            </ul>
+        </div>
+
+        <div class="chat_space format">
+            <ul>
+                <li>
+                    <div class="message">
+                        <span></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom">
+            <div>
+                <table>
+                    <tr>
+                        <td><image src="./input_left.jpg" id="input_left"></image></td>
+                        <td><input type="text" placeholder="궁금한 사항을 입력해주세요." id="textfield"></td>
+                        <td><button id="enter_btn"><image src="./enter.jpg" id="enter_image"></image></button></td>
+                    </tr>
+                </table>
+                <div class="question">
+                    <form action="response.jsp" method="get">
+                    <table>
+                        <tr>
+                            <td><input  type="submit" value="학점" name="학점"></input></td>
+                            <td><input type="submit" value="졸업" name="졸업"></input></td>
+                            <td><input type="submit" value="세미나" name="세미나"></input></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="튜터공고" name="튜터공고"></input></td>
+                            <td><input type="submit" value="계절학기" name="계절학기"></input></td>
+                            <td><input type="submit" value="마일리지" name="마일리지"></input></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" id="학교홈페이지" value="학교홈페이지" onclick="goReplace()"></input></td>
+                            <td><input type="submit" value="학부위치" name="학부위치"></input></td>
+                            <td><input type="submit" value="연락처" name="연락처"></input></td>
+
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
