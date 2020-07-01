@@ -6,10 +6,7 @@
     width : 600px;
     background-color: #FFFFFF;
     border-radius: 15px;
-	box-shadow: 3px 3px 3px 3px gray;	/* ï¿½Ù±ï¿½ ï¿½×¸ï¿½ï¿½ï¿½  */
-=======
-    background-color: #DDDDDD;
-    border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px gray;	/* ¹Ù±ù ±×¸²ÀÚ  */
 }
 h3{
     display:inline-block;
@@ -19,31 +16,19 @@ h3{
     height:350px;
     background-color: #FFFFFF;
 }
-.bottom{ /* Ã¤ï¿½ï¿½ ï¿½Æ·ï¿½ */
+.bottom{ /* Ã¤ÆÃ ¾Æ·¡ */
     width:600px;
     height:200px;
     background-color: #D2D6D8;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#menu{ /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½*/
+#menu{ /* ¿ìÃø »ó´Ü ¸Þ´º*/
     background-color: #FFFFFF;
-=======
-    background-color: darkgrey;
-}
-.bottom{
-    width:600px;
-    height:200px;
-    background-color: #DDDDDD;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-#menu{
-    background-color: #DDDDDD;
     width:40px;
     height:40px;
     border: none;
-    float:right
+    float:right;
     margin: 15px;
 }
 #input_left{
@@ -93,6 +78,16 @@ h3{
     background-color: #D24E3C;
     color: white;
 }
+
+.chat_space .chat { padding-top: 80px; }
+.chat_space .chat ul { width: 100%; list-style: none; }
+.chat_space .chat ul li { width: 100%; }
+.chat_space .chat ul li.left { text-align: left; }
+.chat_space .chat ul li.right { text-align: right; }
+
+
+ÃâÃ³: https://dororongju.tistory.com/151 [À¥ °³¹ß ¸Þ¸ðÀå]
+/*
 #bot_1{
     position: relative;
     left: 10px;
@@ -122,6 +117,5 @@ h3{
     position: relative;
     left: 340px;
     top: -100px;
-=======
-    border: none;
 }
+*/
