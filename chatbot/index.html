@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='chatbot.css'>
+	<script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./chatting.js"></script>
     <title>Chatbot</title>
 </head>
 
@@ -21,17 +23,19 @@
         <hr>
         <div class="space">
             <div class="chat_space">
-            <!--  
-                <div id="user_1" class="user_text"><p>질문</p></div>
-                <div id="bot_1" class="bot_text"><p>답</p></div>
-                <div id="user_2" class="user_text"><p>질문</p></div>
-                <div id="bot_2" class="bot_text"><p>답</p></div>
-                <div id="user_3" class="user_text"><p>질문</p></div>
-                <div id="bot_3" class="bot_text"><p>답</p></div>
-                -->
                 <ul>
-                	<!-- 채팅 동적 생성 -->
+
                 </ul>
+            </div>
+            <!-- 채팅 형식 -->
+            <div class="chat_space format">
+            	<ul>
+            		<li>
+            			<div class="message">
+            				<span></span>
+            			</div>
+            		</li>
+            	</ul>
             </div>
             <div class="bottom">
                 <div class="input">

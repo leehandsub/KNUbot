@@ -73,25 +73,28 @@ h3{
 }
 .bot_text{
     background-color: #F5F5F5;
+    color: #555;
 }
 .user_text{
     background-color: #D24E3C;
     color: white;
 }
-/*
-.chat_space .chat { padding-top: 80px; }
-.chat_space .chat ul { width: 100%; list-style: none; }
-.chat_space .chat ul li { width: 100%; }
-.chat_space .chat ul li.left { text-align: left; }
-.chat_space .chat ul li.right { text-align: right; }
-*/
 
+.chat_space  { padding-top: -30px; overflow: scroll;}
+.chat_space  ul { width: 100%; list-style: none; }
+.chat_space  ul li { width: 100%; }
+.chat_space  ul li.left { text-align: left; }
+.chat_space  ul li.right { text-align: right; }
+
+.chat_space  ul li > div { font-size: 13px;}
+.chat_space  ul li > div.message { display:inline-block; word-break:break-all; margin-right: 50px; margin-top: 5px; padding: 10px; border-radius: 10px; background-color: #D24E3C; color: #ffffff; text-align: left;}
+
+.format {display: none;}
 
 #bot_1{
     position: relative;
-    left: 10px;
-    top: -50px;
 }
+/*
 #bot_2{
     position: relative;
     left: 10px;
@@ -117,3 +120,4 @@ h3{
     left: 340px;
     top: -100px;
 }
+*/
