@@ -1,3 +1,5 @@
+@CHARSET "UTF-8";
+
 .center {
     text-align: center;
 }
@@ -6,7 +8,7 @@
     width : 600px;
     background-color: #FFFFFF;
     border-radius: 15px;
-	box-shadow: 3px 3px 3px 3px gray;	/* ¹Ù±ù ±×¸²ÀÚ  */
+    box-shadow: 3px 3px 3px 3px gray;	/* ï¿½Ù±ï¿½ ï¿½×¸ï¿½ï¿½ï¿½  */
 }
 h3{
     display:inline-block;
@@ -16,14 +18,14 @@ h3{
     height:350px;
     background-color: #FFFFFF;
 }
-.bottom{ /* Ã¤ÆÃ ¾Æ·¡ */
+.bottom{ /* Ã¤ï¿½ï¿½ ï¿½Æ·ï¿½ */
     width:600px;
     height:200px;
     background-color: #D2D6D8;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#menu{ /* ¿ìÃø »ó´Ü ¸Þ´º*/
+#menu{ /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½*/
     background-color: #FFFFFF;
     width:40px;
     height:40px;
@@ -53,9 +55,9 @@ h3{
     text-align: center;
     padding-left: 20px;
     padding-right: 10px;
-    
+
 }
-.question td button{
+.question td input {
     width: 180px;
     height: 40px;
     border-radius: 10px;
@@ -65,36 +67,33 @@ h3{
     border: none;
 }
 .bot_text, .user_text{
-    width: 240px;
-    height: 70px;
+    max-width: 240px;
+    min-height: 70px;
     margin: 5px;
     border-radius: 10px;
     text-align: center;
 }
 .bot_text{
     background-color: #F5F5F5;
-    color: #555;
 }
 .user_text{
     background-color: #D24E3C;
     color: white;
 }
+/*
+.chat_space .chat { padding-top: 80px; }
+.chat_space .chat ul { width: 100%; list-style: none; }
+.chat_space .chat ul li { width: 100%; }
+.chat_space .chat ul li.left { text-align: left; }
+.chat_space .chat ul li.right { text-align: right; }
+*/
 
-.chat_space  { padding-top: -30px; overflow: scroll;}
-.chat_space  ul { width: 100%; list-style: none; }
-.chat_space  ul li { width: 100%; }
-.chat_space  ul li.left { text-align: left; }
-.chat_space  ul li.right { text-align: right; }
-
-.chat_space  ul li > div { font-size: 13px;}
-.chat_space  ul li > div.message { display:inline-block; word-break:break-all; margin-right: 50px; margin-top: 5px; padding: 10px; border-radius: 10px; background-color: #D24E3C; color: #ffffff; text-align: left;}
-
-.format {display: none;}
 
 #bot_1{
     position: relative;
+    left: 10px;
+    top: -50px;
 }
-/*
 #bot_2{
     position: relative;
     left: 10px;
@@ -120,4 +119,3 @@ h3{
     left: 340px;
     top: -100px;
 }
-*/
