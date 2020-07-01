@@ -4,6 +4,10 @@
 .outside{
     display : inline-block;
     width : 600px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px gray;	/* �ٱ� �׸���  */
+=======
     background-color: #DDDDDD;
     border-radius: 15px;
 }
@@ -13,6 +17,18 @@ h3{
 .chat_space{
     width:600px;
     height:350px;
+    background-color: #FFFFFF;
+}
+.bottom{ /* ä�� �Ʒ� */
+    width:600px;
+    height:200px;
+    background-color: #D2D6D8;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#menu{ /* ���� ��� �޴�*/
+    background-color: #FFFFFF;
+=======
     background-color: darkgrey;
 }
 .bottom{
@@ -27,7 +43,8 @@ h3{
     width:40px;
     height:40px;
     border: none;
-    float:right;
+    float:right
+    margin: 15px;
 }
 #input_left{
     border-radius: 10px;
@@ -43,5 +60,68 @@ h3{
 #enter_image{
     width:25px;
     height:25px;
+    border-radius: 15px;
+    margin: 5px;
+    border: none;
+}
+.question{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+.question td button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-style: bold;
+    background-color: #ffffff;
+    border: none;
+}
+.bot_text, .user_text{
+    width: 240px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.bot_text{
+    background-color: #F5F5F5;
+}
+.user_text{
+    background-color: #D24E3C;
+    color: white;
+}
+#bot_1{
+    position: relative;
+    left: 10px;
+    top: -50px;
+}
+#bot_2{
+    position: relative;
+    left: 10px;
+    top: -100px;
+}
+#bot_3{
+    position: relative;
+    left: 10px;
+    top: -160px;
+}
+#user_1{
+    position: relative;
+    left: 340px;
+    top: 10px;
+}
+#user_2{
+    position: relative;
+    left: 340px;
+    top: -40px;
+}
+#user_3{
+    position: relative;
+    left: 340px;
+    top: -100px;
+=======
     border: none;
 }
