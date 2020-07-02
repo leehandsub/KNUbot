@@ -66,56 +66,45 @@ h3{
     background-color: #ffffff;
     border: none;
 }
+
+.chat_space  { padding-top: -30px; overflow: scroll;}
+.chat_space  ul { width: 100%; list-style: none; }
+.chat_space  ul li { width: 100%; }
+.chat_space  ul li.left { text-align: left; }
+.chat_space  ul li.right { text-align: right; }
+
+.chat_space  ul li > div { font-size: 13px;}
+.chat_space  ul li > div.message { display:inline-block; word-break:break-all; margin-right: 50px; margin-top: 5px; padding: 10px; border-radius: 10px; background-color: #D24E3C; color: #ffffff; text-align: left;}
+
+.format {display: none;}
+
 .bot_text, .user_text{
-    max-width: 240px;
-    min-height: 70px;
+    min-height: 20px;
     margin: 5px;
+    padding: 10px;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    /*display: inline-block;*/
+    font-size: 13px;
 }
+
 .bot_text{
     background-color: #F5F5F5;
+    max-width: 50%;
 }
+
 .user_text{
     background-color: #D24E3C;
     color: white;
 }
-/*
-.chat_space .chat { padding-top: 80px; }
-.chat_space .chat ul { width: 100%; list-style: none; }
-.chat_space .chat ul li { width: 100%; }
-.chat_space .chat ul li.left { text-align: left; }
-.chat_space .chat ul li.right { text-align: right; }
-*/
-
 
 #bot_1{
     position: relative;
-    left: 10px;
-    top: -50px;
-}
-#bot_2{
-    position: relative;
-    left: 10px;
-    top: -100px;
-}
-#bot_3{
-    position: relative;
-    left: 10px;
-    top: -160px;
-}
-#user_1{
-    position: relative;
-    left: 340px;
     top: 10px;
 }
-#user_2{
+
+#user_1{
     position: relative;
-    left: 340px;
-    top: -40px;
-}
-#user_3{
-    position: relative;
-    left: 340px;
-    top: -100px;
+    left: 500px;
+    width: 10%;
 }
