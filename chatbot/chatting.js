@@ -25,6 +25,7 @@ const Chat = (function(){
         // 값 채우기
         chatLi.addClass(LR_className);
         chatLi.find('.message span').text(message);
+
         return chatLi;
     }
  

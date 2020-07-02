@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='chatbot.css?after'>
     <title>Chatbot</title>
+
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./chatting.js"></script>
+
     <script>
         function goReplace() {
             window.open('about:blank').location.href = "http://cse.knu.ac.kr/main/index.html";
         }
     </script>
-
 </head>
 
 <body class="center">
@@ -27,13 +30,21 @@
     <hr>
     <div class="space">
         <div class="chat_space">
-
-                <div id="user_1" class="user_text"><p>질문</p></div>
-                <div id="bot_1" class="bot_text"><p>답</p></div>
             <ul>
-                <!-- 채팅 동적 생성 -->
+
             </ul>
         </div>
+
+        <div class="chat_space format">
+            <ul>
+                <li>
+                    <div class="message">
+                        <span></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <div class="bottom">
             <div>
                 <table>
@@ -58,7 +69,9 @@
                         </tr>
                         <tr>
                             <td><input type="button" id="학교홈페이지" value="학교홈페이지" onclick="goReplace()"></input></td>
-                            <td><input type="button" id = "시간표" value="시간표"></input></td>
+                            <td><input type="submit" value="학부위치" name="학부위치"></input></td>
+                            <td><input type="submit" value="연락처" name="연락처"></input></td>
+
                         </tr>
                     </table>
                     </form>
